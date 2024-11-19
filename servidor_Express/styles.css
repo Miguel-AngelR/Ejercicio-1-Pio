@@ -1,0 +1,127 @@
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #6a82fb, #fc5c7d, #f7a7b7, #6c63ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1 {
+  text-align: center;
+  color: #d94f7c; /* Mantenemos el verde que resalta */
+  margin-top: 20px;
+}
+
+/* Formulario */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus, select:focus, button:focus {
+  border-color: #7d5ba6;
+  outline: none;
+}
+
+button {
+  background-color: #7d5ba6;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7d5ba5;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #7d5ba6;
+}
+
+a:hover {
+  color: #7d5ba5;
+}
+
+/* Mensajes de Error */
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+ul li {
+  color: red;
+  font-weight: bold;
+}
+
+/* Página de Confirmación */
+.confirmation {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #e7f5e2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation h1 {
+  color: #d94f7c;
+}
+
+.confirmation p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.confirmation a {
+  margin-top: 20px;
+}
+
+/* Autor del Formulario */
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #464545;
+  margin-top: 20px;
+}
+
+
+  /* creado por miguel angel ruiz urmendis */
